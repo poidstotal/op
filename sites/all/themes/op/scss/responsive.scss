@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1262px) {
+
+  .Banner .views-field-field-image {
+      width: 100%;
+  }
+  #block-block-3 .section, #header,#footer-wrapper .section, .view-blog-listing, #block-views-members-block .view-members, #block-views-members-block-1 .view-members, #block-views-members-block-2 .view-members {
+    width: 90%;
+  }
+  .Banner .views-field-title {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .Banner .views-field-body {
+    width: 64%;
+    left: 18%;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  #header {
+    height: auto;
+  }
+  .Banner {
+    .views-field-title {
+      font-size: 2em;
+    }
+    .views-field-body {
+      width: 80%;
+      left: 10%;
+    }
+  }
+  .Get-Involve .views-row {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 20px;
+    margin-right: 5%;
+    float: none;
+    .views-field-body {
+      height: auto;
+      overflow: inherit;
+    }
+  }
+  .Our-Mission .views-row {
+    width: 80%;
+    float: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+}
+
+@media only screen and (max-width: 668px) {
+  #block-block-3 .section a.button {
+    display: inline-block;
+    margin-top: 20px;
+    position: inherit;
+  }
+
+  #main-menu {
+    float: none;
+    width:100%;
+    li{
+     height:50px;
+      a{
+	line-height:50px;
+      }
+    }
+    li.first {
+      margin-left: 10px;
+    }
+    li.last {
+	position: absolute;
+    	top: 18px;
+    	right: 25px;      
+    }
+  }
+  #logo{
+    float:none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #main-menu li {
+    a {
+      font-size: 0.8em;
+    }
+    &:last-child a {
+      padding: 4px 8px;
+    }
+  }
+}
